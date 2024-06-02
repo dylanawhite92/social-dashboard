@@ -1,1 +1,1 @@
-# social-dashboard
+# Social Media Dashboard with Theme Switcher
