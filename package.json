@@ -15,5 +15,18 @@
   "bugs": {
     "url": "https://github.com/dylanawhite92/social-dashboard/issues"
   },
-  "homepage": "https://github.com/dylanawhite92/social-dashboard#readme"
+  "homepage": "https://github.com/dylanawhite92/social-dashboard#readme",
+  "dependencies": {
+    "@babel/core": "^7.25.9",
+    "@babel/preset-env": "^7.25.9",
+    "autoprefixer": "^10.4.20",
+    "cssnano": "^6.1.2",
+    "dart-sass": "^1.25.0",
+    "gulp": "^5.0.0",
+    "gulp-babel": "^8.0.0",
+    "gulp-postcss": "^10.0.0",
+    "gulp-sass": "^5.1.0",
+    "gulp-terser": "^2.1.0",
+    "postcss": "^8.4.47"
+  }
 }
