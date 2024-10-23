@@ -1,0 +1,19 @@
+{
+  "name": "social-media-dashboard",
+  "version": "1.0.0",
+  "description": "A social media analytic/metric dashboard with a toggleable dark/light mode and a focus on accessibility features.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dylanawhite92/social-dashboard.git"
+  },
+  "author": "Dylan White",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dylanawhite92/social-dashboard/issues"
+  },
+  "homepage": "https://github.com/dylanawhite92/social-dashboard#readme"
+}
