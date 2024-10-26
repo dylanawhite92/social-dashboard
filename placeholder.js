@@ -8,10 +8,8 @@ const babel = require('gulp-babel');
 const terser = require('gulp-terser');
 const browsersync = require('browser-sync').create();
 
-// Sass Task -
-// had to prefix async here because task was not executing even though
-// async completion is signaled by the stream return
-async function scssTask() {
+// Sass Task
+function scssTask() {
   return src('app/scss/style.scss', { sourcemaps: true })
     .pipe(sass())
     .pipe(postcss([autoprefixer(), cssnano()]))
