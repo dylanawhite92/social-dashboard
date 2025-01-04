@@ -9,17 +9,19 @@
 
   label {
     &[for='dark'] {
-      color: red;
+      grid-column: 1 / 2;
     }
     &[for='system'] {
-      color: red;
+      grid-column: 2 / 3;
+      grid-row: 2 / 3;
     }
     &[for='light'] {
-      color: red;
+      grid-column: 3 / 4;
     }
   }
 
   &__wrapper {
+    grid-column: 2 / 3;
     height: rem(24);
   }
 
