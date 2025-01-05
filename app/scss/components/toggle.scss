@@ -7,7 +7,7 @@
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(2, 1fr);
   border: none;
-  gap: rem(12);
+  gap: rem(8);
 
   label {
     &[for='dark'] {
@@ -16,7 +16,7 @@
     }
     &[for='system'] {
       justify-self: center;
-      grid-column: 2 / 3;
+      grid-column: 1 / 4;
       grid-row: 2 / 3;
     }
     &[for='light'] {
@@ -33,6 +33,7 @@
 
   input[type='radio'] {
     opacity: 0%;
+    margin: 0;
   }
 
   &__background {
@@ -50,9 +51,13 @@
   }
 
   &__button {
-    width: rem(16);
-    height: rem(16);
+    position: absolute;
+    top: rem(3);
+    left: rem(3);
+    right: 100%;
+    width: rem(18);
+    height: rem(18);
     border-radius: 50%;
-    background-color: var(--toggle);
+    background-color: var(--dark-bg);
   }
 }
